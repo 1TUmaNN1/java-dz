@@ -1,0 +1,19 @@
+import java.util.Scanner;
+ 
+public class Program {
+   
+    public static void main(String[] args) {
+           
+        Scanner in = new Scanner(System.in);
+        System.out.print("Input the first number: ");
+        int a = in.nextInt();
+         System.out.print("Input the second number: ");
+        int b = in.nextInt();
+         System.out.print("Input the third number: ");
+        int c = in.nextInt();
+        int sum = a + b + c;
+          
+        System.out.printf("the sum of your numbers: %d \n", sum);
+        in.close();
+    }
+}
